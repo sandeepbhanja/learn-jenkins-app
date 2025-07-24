@@ -18,5 +18,9 @@ pipeline {
                 '''
             }
         }
+
+        step ("Test"){
+            sh 'echo Test Stage'
+        }
     }
 }
